@@ -32,7 +32,7 @@ public class Fridge {
         maxSizeFridge = size;
         int currentSize = fridge.size();
         List<Product> removedProducts = new ArrayList<>();
-        while(currentSize<maxSizeFridge)
+        while(maxSizeFridge<currentSize)
         {
             removedProducts.add(fridge.remove(currentSize-1));
             currentSize-=1;

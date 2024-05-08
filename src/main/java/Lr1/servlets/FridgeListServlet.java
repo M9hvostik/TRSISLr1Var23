@@ -39,68 +39,6 @@ public class FridgeListServlet extends HttpServlet  {
         request.setAttribute("maxSize", fridgeObj.getMaxSizeFridge());
         request.setAttribute("fridge", fridgeObj.getFridge());
         request.getRequestDispatcher("fridgeList.jsp").forward(request, response);
-//        response.setContentType("text/html;charset=UTF-8");
-//        try (PrintWriter out = response.getWriter()) 
-//        {
-//            /* TODO output your page here. You may use following sample code. */
-//            out.println("<!DOCTYPE html>");
-//            out.println("<html>");
-//            out.println("<head>");
-//            out.println("<title>Fridge</title>");
-//            out.println("</head>");
-//            out.println("<body>");
-//
-//            out.println("<table border=1>");
-//            
-//            out.println("<thead>");
-//            out.println("<tr>");
-//            out.println("<th>");
-//            out.println("Название");
-//            out.println("</th>");
-//            
-//            out.println("<th>");
-//            out.println("Дата производства");
-//            out.println("</th>");
-//            
-//            out.println("<th>");
-//            out.println("Дата истечения срока годности");
-//            out.println("</th>");
-//            
-//            out.println("</tr>");
-//            out.println("</thead>");
-//            
-//            out.println("<tbody>");
-//            
-//            final List<Product> fridgeList = fridgeObj.getFridge();
-//            int sizeFridge = fridgeList.size();
-//            Product currentProduct = null;
-//            for (int i = 1; i < sizeFridge; i++) 
-//            {
-//                currentProduct = fridgeList.get(i);
-//                out.println("<tr>");
-//                out.println("<td>");
-//                if(currentProduct != null)
-//                {
-//                    out.println(currentProduct.getName());
-//                    out.println(currentProduct.getStringProductionDate());
-//                    out.println(currentProduct.getStringExpirationDate());
-//                }
-//                else
-//                {
-//                    out.println("Пусто");
-//                    out.println("Пусто");
-//                    out.println("Пусто");
-//                }
-//                
-//                out.println("</td>");
-//                out.println("</tr>");
-//            }
-//
-//            out.println("</tbody>");
-//            out.println("</table>");
-//            out.println("</body>");
-//            out.println("</html>");
-//        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

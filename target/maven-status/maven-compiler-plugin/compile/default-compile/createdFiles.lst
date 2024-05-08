@@ -4,10 +4,8 @@ Lr1\config\WebSecurityConfig.class
 Lr1\model\Fridge.class
 Lr1\servlets\PutProductServlet.class
 Lr1\servlets\ChangeMaxSizeFridgeServlet.class
-Lr1\model\DataModel.class
 Lr1\servlets\ChangeProductServlet.class
 Lr1\filters\ExampleFilter.class
-Lr1\servlets\ExampleServlet.class
 Lr1\filters\ExampleFilter$1.class
 Lr1\servlets\FridgeListServlet.class
 Lr1\model\Product.class
